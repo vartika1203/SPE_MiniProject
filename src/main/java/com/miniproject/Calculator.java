@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class Calculator {
 
+    
     public static double squareroot(double x){
                     double result = Math.sqrt(x);
                     return result;           
