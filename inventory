@@ -1,2 +1,2 @@
 [ubuntu18]
-127.0.0.1 ansible_user=vartika
+172.16.144.201 ansible_user=vartika
