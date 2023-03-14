@@ -1,2 +1,2 @@
 [ubuntu18]
-10.0.2.4 ansible_user=vartika
+127.0.0.1 ansible_user=vartika
