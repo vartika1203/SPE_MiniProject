@@ -1,2 +1,2 @@
-[ubuntu18]
-172.16.144.201 ansible_user=vartika
+[client1]
+172.16.144.201 ansible_ssh_user=vartika ansible_ssh_pass=root121 sudo=vartika ansible_sudo_pass=root121

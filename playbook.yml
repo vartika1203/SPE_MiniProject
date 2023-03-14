@@ -1,6 +1,6 @@
 ---
 - name: Pull docker image of Calculator
-  hosts: all
+  hosts: client1
   tasks:
     - name: Start docker service
       service:
@@ -11,4 +11,4 @@
       shell: docker pull vartikach02/miniproj_calculator
 
     - name: running container
-      shell: docker run -it -d vartikach02/miniproj_calculator /bin/bash
+      shell: docker run -it -d vartikach02/miniproj_calculator
