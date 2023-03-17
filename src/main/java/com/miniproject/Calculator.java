@@ -7,7 +7,7 @@ public class Calculator {
     private static final Logger logger = LogManager.getLogger(Calculator.class);
     public Calculator() {
     }
-    
+    // https://my-deployment-ca5d14.kb.us-central1.gcp.cloud.es.io:9243/app/home#/
     public static double squareroot(double x){
                     logger.info("[SQUARE ROOT] - " + x);
                     double result = Math.sqrt(x);
