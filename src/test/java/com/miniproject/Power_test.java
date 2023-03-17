@@ -12,8 +12,7 @@ public class Power_test {
         System.out.println("starting power test");
         System.out.println("===============================================");
     }
-
-
+    
     @Test
     public void positive_and_positive() {
        // Calculator mycalc = new Calculator();
