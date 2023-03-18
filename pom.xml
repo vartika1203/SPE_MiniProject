@@ -39,21 +39,46 @@
         </dependency>
     </dependencies>
     <build>
-    <plugins>
-        <plugin>
+    <!-- <plugins>
+        <plugin> -->
             <!-- Build an executable JAR -->
-            <groupId>org.apache.maven.plugins</groupId>
+            <!-- <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-jar-plugin</artifactId>
             <version>3.1.0</version>
             <configuration>
                 <archive>
                     <manifest>
-                        <addClasspath>true</addClasspath>
+                        <addClasspath>true</addClasspath> -->
                         <!-- here we specify that we want to use the main method within the App class -->
-                        <mainClass>com.miniproject.Calculator</mainClass>
+                        <!-- <mainClass>com.miniproject.Calculator</mainClass>
                     </manifest>
                 </archive>
             </configuration>
+        </plugin>
+    </plugins> -->
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-assembly-plugin</artifactId>
+            <version>3.3.0</version>
+            <executions>
+                <execution>
+                    <phase>package</phase>
+                    <goals>
+                        <goal>single</goal>
+                    </goals>
+                    <configuration>
+                        <archive>
+                            <manifest>
+                                <mainClass>com.miniproject.Calculator</mainClass>
+                            </manifest>
+                        </archive>
+                        <descriptorRefs>
+                            <descriptorRef>jar-with-dependencies</descriptorRef>
+                        </descriptorRefs>
+                    </configuration>
+                </execution>
+            </executions>
         </plugin>
     </plugins>
     </build>

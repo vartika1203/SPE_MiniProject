@@ -4,3 +4,5 @@
 2023-03-17 15:14:30.717 [main] INFO  com.miniproject.Calculator - [RESULT - SQUARE ROOT] - 6.0
 2023-03-17 15:14:45.415 [main] INFO  com.miniproject.Calculator - [LOG] - 5.0
 2023-03-17 15:14:45.416 [main] INFO  com.miniproject.Calculator - [RESULT - LOG] - 1.6094379124341003
+2023-03-18 16:11:59.038 [main] INFO  com.miniproject.Calculator - [FACTORIAL] - 12
+2023-03-18 16:11:59.046 [main] INFO  com.miniproject.Calculator - [RESULT - FACTORIAL] - 479001600
