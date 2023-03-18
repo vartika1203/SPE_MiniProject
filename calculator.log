@@ -6,3 +6,5 @@
 2023-03-17 15:14:45.416 [main] INFO  com.miniproject.Calculator - [RESULT - LOG] - 1.6094379124341003
 2023-03-18 16:11:59.038 [main] INFO  com.miniproject.Calculator - [FACTORIAL] - 12
 2023-03-18 16:11:59.046 [main] INFO  com.miniproject.Calculator - [RESULT - FACTORIAL] - 479001600
+2023-03-18 16:18:41.962 [main] INFO  com.miniproject.Calculator - [FACTORIAL] - 12
+2023-03-18 16:18:41.971 [main] INFO  com.miniproject.Calculator - [RESULT - FACTORIAL] - 479001600
