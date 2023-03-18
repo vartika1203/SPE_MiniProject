@@ -1,4 +1,4 @@
 FROM openjdk:8
-COPY ./target/miniproject-1.0-SNAPSHOT-jar-with-dependencies ./
+COPY ./target/calculator-1.0-SNAPSHOT ./
 WORKDIR ./
-CMD ["java", "-jar", "miniproject-1.0-SNAPSHOT-jar-with-dependencies.jar"]
+CMD ["java", "-jar", "calculator-1.0-SNAPSHOT.jar"]
