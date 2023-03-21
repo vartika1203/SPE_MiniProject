@@ -37,9 +37,9 @@ public class Calculator {
     }
     
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        
         System.out.println("Welcome to the calculator program!");
-
+        Scanner input = new Scanner(System.in);
         while (true) {
             System.out.println("\nPlease select an operation :");
             System.out.println("1. Square root function");
