@@ -38,7 +38,7 @@ public class Calculator {
     
     public static void main(String[] args) {
         
-        System.out.println("Welcome to the calculator program!");
+        System.out.println("Welcome to the calculator program!!");
         Scanner input = new Scanner(System.in);
         while (true) {
             System.out.println("\nPlease select an operation :");
