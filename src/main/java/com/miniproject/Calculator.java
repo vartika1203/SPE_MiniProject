@@ -7,7 +7,7 @@ public class Calculator {
     private static final Logger logger = LogManager.getLogger(Calculator.class);
     public Calculator() {
     }
-    // https://my-deployment-ca5d14.kb.us-central1.gcp.cloud.es.io:9243/app/home#/
+    //  https://my-deployment-ca5d14.kb.us-central1.gcp.cloud.es.io:9243/app/home#/
     public static double squareroot(double x){
                     logger.info("[SQUARE ROOT] - " + x);
                     double result = Math.sqrt(x);
@@ -38,7 +38,7 @@ public class Calculator {
     
     public static void main(String[] args) {
         
-        System.out.println("Welcome to the calculator program!!");
+        System.out.println("Welcome to our calculator program!!");
         Scanner input = new Scanner(System.in);
         while (true) {
             System.out.println("\nPlease select an operation :");
