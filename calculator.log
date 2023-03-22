@@ -8,3 +8,5 @@
 2023-03-18 16:11:59.046 [main] INFO  com.miniproject.Calculator - [RESULT - FACTORIAL] - 479001600
 2023-03-18 16:18:41.962 [main] INFO  com.miniproject.Calculator - [FACTORIAL] - 12
 2023-03-18 16:18:41.971 [main] INFO  com.miniproject.Calculator - [RESULT - FACTORIAL] - 479001600
+2023-03-22 10:45:45.041 [main] INFO  com.miniproject.Calculator - [FACTORIAL] - 4
+2023-03-22 10:45:45.050 [main] INFO  com.miniproject.Calculator - [RESULT - FACTORIAL] - 24
